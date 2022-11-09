@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1> Weather API</h1>
+        </header>
+        <section>
+            <div class="input">
+                <input type="text" class="inputValue" placeholder="Choisir une ville">
+                <input type="submit" id="Submit" class="Submit" value="Envoyer" >
+            </div>
+            <div id="display" class="display">
+                <h1 class="name"></h1>
+                <p class="desc"></p>
+                <p class="temp_min"></p>
+                <p class="temp"></p>
+                <p class="temp_max"></p>
+                <p class="tempRessent"></p>
+                <p class="humi"></p>
+                <p class="ventVitesse"></p>
+                <p class="sunr"></p>
+                <p class="suns"></p>
+            </div>
+        </section>
+    </main>
+    <script src="/Meteo_model.js">
+    </script>
+</body>
+</html>
